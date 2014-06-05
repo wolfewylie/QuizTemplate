@@ -1,0 +1,101 @@
+html {
+	width: 98%;
+	max-width: 800px;
+	background-color: white;
+}
+
+.logo {
+	margin-left: 5%;
+	margin-top: -5px;
+	float: left;
+	width: 45px;
+
+}
+
+body {
+	text-align: center;
+	font-family: arial, Sans;
+	font-size: 15pt;
+	color: black;
+}
+
+p {
+	margin-top: 30px;
+}
+
+header h1 {
+	font-size: 30px;
+	padding-bottom: 8px;
+	float:left;
+	margin-left: 5%;
+	margin-top: -1px;
+	font-family: dinweb;
+}
+
+h2 {
+	font-size: 25px;
+	margin-top: 21px;
+	padding-bottom: 8px;
+	margin-right: 50%;
+	margin-left: 15%;
+	font-family: dinweb;
+}
+
+@media (max-width: 700px){
+	header h1 {
+		font-size: 22px;
+	}
+	h2 {
+		font-size: 22px;
+		margin-left: 22%;
+		margin-right: 22%;
+	}
+}
+
+input[type="radio"]:checked+label {
+	color: black;
+}
+
+#question {
+	font-size: 25px;
+	margin-top: 45px;
+	color: black;
+}
+
+ul {
+	list-style: none;
+	color: black;
+}
+
+
+#choices label {
+	margin-left: 5px;
+	font-size: 20px;
+	color: black;
+	margin-top: 8px;
+}
+
+.finalmessage {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+#choices label:hover {
+	color: black;
+}
+
+#beginButton, #submitButton, #continueButton, #retryButton {
+	border-radius: 15px;
+	background-color: #90B0FC;
+	font-size: 20px;
+	font-family: dinweb, Sans;
+	margin-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#questionNumber {
+	margin-top: 15px;
+}
